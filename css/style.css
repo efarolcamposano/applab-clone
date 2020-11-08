@@ -348,8 +348,8 @@ ULTIMATE FEATURES -------------------------------*/
   margin: auto;
 }
 
-.ultimate-features .flex-align-center {
-  flex-direction: column;
+.ultimate-features .key-features {
+  display: block;
 }
 
 /* 
