@@ -729,22 +729,25 @@ footer .social-media a:hover {
     flex-direction: row;
   }
 
-  .service-section .container h3 + p {
-    max-width: 65%;
-    margin: 0 auto 5em;
-  }
-
   .ultimate-features  .key-img  {
     margin: 0;
   }
 
-  .ultimate-features .flex-align-center {
-    flex-direction: row;
+  .ultimate-features .key-features {
+    display: flex;
+    align-items: center;
   }
 
+  .service-section .section-header,
+  .pricing-section .section-header,
   .faq-section .section-header {
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  .service-section .section-header,
+  .faq-section .section-header {
     text-align: center;
   }
 
