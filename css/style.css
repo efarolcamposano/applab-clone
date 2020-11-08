@@ -282,10 +282,6 @@ HERO SECTION -------------------------------*/
   margin: 0 0 20px;
 }
 
-.feature-section .key-info {
-  padding: 0 20px;
-}
-
 .other-features .key-img {
   width: 58px;
   margin: 0 auto;
@@ -699,6 +695,10 @@ footer .social-media a:hover {
   .feature-section .key-img {
     width: 120px;
     margin: 0;
+  }
+
+  .feature-section .key-info {
+    padding: 0 20px;
   }
 
   .feature-section .flex-align-center {
