@@ -30,7 +30,7 @@ body {
   display: table;
   background: #2500f9;
   border-radius: 30px;
-  padding: 10px 30px;
+  padding: 15px 30px;
   color: #fff;
   transition: .25s ease-out;
   cursor: pointer;
@@ -108,6 +108,10 @@ HEADER SECTION -------------------------------*/
   min-height: 90px;
   display: flex;
   align-items: center;
+}
+
+.navbar .logo {
+  width: 80px;
 }
 
 .navbar .container{
@@ -295,6 +299,10 @@ HERO SECTION -------------------------------*/
   margin: 0px;
 }
 
+.key-features .key-item {
+  margin-bottom: 40px;
+}
+
 /* 
 ABOUT SECTION -------------------------------*/
 .about-section .about-info {
@@ -352,7 +360,7 @@ PRICING SECTION -------------------------------*/
 
 .pricing-section .switch-btn {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   justify-content: center;
 }
 
@@ -368,7 +376,7 @@ PRICING SECTION -------------------------------*/
 }
 
 .pricing-section .free-plan {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .pricing-section .price-info .term {
@@ -657,7 +665,6 @@ footer .social-media a:hover {
 
 .flex-2 {
   flex: 0 50%;
-  padding-right: 15px;
 }
 
 .flex-2:nth-child(even) {
@@ -666,7 +673,6 @@ footer .social-media a:hover {
 
 .flex-3 {
   flex: 0 0 33.333333%;
-  padding: 0 20px;
 }
 
 
@@ -744,6 +750,10 @@ footer .social-media a:hover {
 
   .download-section .dl-btn {
     margin: 0 20px 0 0;
+  }
+
+  .flex-2 {
+    padding-right: 15px;
   }
 
   .flex-3 {
@@ -842,6 +852,10 @@ footer .social-media a:hover {
     transform: translateX(0);
   }
 
+  .navbar .logo {
+    width: 117px;
+  }
+
 /* menu */
   .menu-btn {
     display: none;
@@ -897,7 +911,7 @@ footer .social-media a:hover {
   .feature-section .key-info {
     padding: 0 46px;
   }
-
+  
 /* other feature */
   .other-features .other-features-title {
     max-width: 950px;

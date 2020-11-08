@@ -88,8 +88,6 @@ $('.navbar .nav-menu a').click(function() {
   // should start at 0
   $(window).scroll(function() {
       const scroll = $(window).scrollTop();
-      console.log(scroll)
-      console.log(position)
       if(scroll > position) {
           header.addClass('sticky');
       } else {
