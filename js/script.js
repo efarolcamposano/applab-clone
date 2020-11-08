@@ -18,6 +18,7 @@ $(document).ready(function(){
 $('.navbar .nav-menu a').click(function() {
   $('.navbar .menu-btn').removeClass('open');
   $('.navbar .nav-menu').removeClass('nav-open');
+  $('body').removeClass('open-nav');
 });
 
 /* PRICING FUNCTION
@@ -82,11 +83,13 @@ $('.navbar .nav-menu a').click(function() {
 
   /* SCROLL FIXED HEADER
   * -------------------------------------------------- */
-  var header = $('header');
-  var position = $(window).scrollTop(); 
+  const header = $('header');
+  let position = $('header').outerHeight(); 
   // should start at 0
   $(window).scroll(function() {
       const scroll = $(window).scrollTop();
+      console.log(scroll)
+      console.log(position)
       if(scroll > position) {
           header.addClass('sticky');
       } else {
